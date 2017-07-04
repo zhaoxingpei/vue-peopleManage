@@ -1,0 +1,23 @@
+/* reset */
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,select{margin:0;padding:0;}
+body{ font-family:'微软雅黑';  color: #363636;}
+html,body{height: 100%;}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none; -webkit-tap-highlight-color: transparent; color: #363636; outline: none;}
+img{border:none; vertical-align:top;}
+table{border-collapse:collapse;}
+textarea{ resize:none;overflow:auto;}
+.clear{zoom:1;}
+.clear:after{ content:''; display:block; clear:both;}
+
+
+.fixed{
+	position: fixed;
+}
+.tc{
+	text-align: center;
+}
+input,button{
+	outline: none;
+}
